@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4363371C464E1800159DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4363361C464E1800159DFB /* AppDelegate.swift */; };
+		FB4363391C464E1800159DFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4363381C464E1800159DFB /* ViewController.swift */; };
+		FB43633C1C464E1800159DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB43633A1C464E1800159DFB /* Main.storyboard */; };
+		FB43633E1C464E1800159DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB43633D1C464E1800159DFB /* Assets.xcassets */; };
+		FB4363411C464E1800159DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB43633F1C464E1800159DFB /* LaunchScreen.storyboard */; };
+		FB43634C1C464E1800159DFB /* LioTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43634B1C464E1800159DFB /* LioTableViewTests.swift */; };
+		FB4363571C464E1800159DFB /* LioTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4363561C464E1800159DFB /* LioTableViewUITests.swift */; };
+		FB4363661C464E2E00159DFB /* LioTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4363651C464E2E00159DFB /* LioTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4363481C464E1800159DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB43632B1C464E1800159DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4363321C464E1800159DFB;
+			remoteInfo = LioTableView;
+		};
+		FB4363531C464E1800159DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB43632B1C464E1800159DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4363321C464E1800159DFB;
+			remoteInfo = LioTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB4363331C464E1800159DFB /* LioTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LioTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4363361C464E1800159DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB4363381C464E1800159DFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB43633B1C464E1800159DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB43633D1C464E1800159DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4363401C464E1800159DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB4363421C464E1800159DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4363471C464E1800159DFB /* LioTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB43634B1C464E1800159DFB /* LioTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioTableViewTests.swift; sourceTree = "<group>"; };
+		FB43634D1C464E1800159DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4363521C464E1800159DFB /* LioTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LioTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4363561C464E1800159DFB /* LioTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LioTableViewUITests.swift; sourceTree = "<group>"; };
+		FB4363581C464E1800159DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4363651C464E2E00159DFB /* LioTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LioTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4363301C464E1800159DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4363441C464E1800159DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB43634F1C464E1800159DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB43632A1C464E1800159DFB = {
+			isa = PBXGroup;
+			children = (
+				FB4363351C464E1800159DFB /* LioTableView */,
+				FB43634A1C464E1800159DFB /* LioTableViewTests */,
+				FB4363551C464E1800159DFB /* LioTableViewUITests */,
+				FB4363341C464E1800159DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4363341C464E1800159DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4363331C464E1800159DFB /* LioTableView.app */,
+				FB4363471C464E1800159DFB /* LioTableViewTests.xctest */,
+				FB4363521C464E1800159DFB /* LioTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4363351C464E1800159DFB /* LioTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB4363361C464E1800159DFB /* AppDelegate.swift */,
+				FB4363381C464E1800159DFB /* ViewController.swift */,
+				FB4363641C464E2100159DFB /* LioTableView */,
+				FB43633A1C464E1800159DFB /* Main.storyboard */,
+				FB43633D1C464E1800159DFB /* Assets.xcassets */,
+				FB43633F1C464E1800159DFB /* LaunchScreen.storyboard */,
+				FB4363421C464E1800159DFB /* Info.plist */,
+			);
+			path = LioTableView;
+			sourceTree = "<group>";
+		};
+		FB43634A1C464E1800159DFB /* LioTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB43634B1C464E1800159DFB /* LioTableViewTests.swift */,
+				FB43634D1C464E1800159DFB /* Info.plist */,
+			);
+			path = LioTableViewTests;
+			sourceTree = "<group>";
+		};
+		FB4363551C464E1800159DFB /* LioTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4363561C464E1800159DFB /* LioTableViewUITests.swift */,
+				FB4363581C464E1800159DFB /* Info.plist */,
+			);
+			path = LioTableViewUITests;
+			sourceTree = "<group>";
+		};
+		FB4363641C464E2100159DFB /* LioTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB4363651C464E2E00159DFB /* LioTableView.swift */,
+			);
+			name = LioTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4363321C464E1800159DFB /* LioTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB43635B1C464E1800159DFB /* Build configuration list for PBXNativeTarget "LioTableView" */;
+			buildPhases = (
+				FB43632F1C464E1800159DFB /* Sources */,
+				FB4363301C464E1800159DFB /* Frameworks */,
+				FB4363311C464E1800159DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LioTableView;
+			productName = LioTableView;
+			productReference = FB4363331C464E1800159DFB /* LioTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4363461C464E1800159DFB /* LioTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB43635E1C464E1800159DFB /* Build configuration list for PBXNativeTarget "LioTableViewTests" */;
+			buildPhases = (
+				FB4363431C464E1800159DFB /* Sources */,
+				FB4363441C464E1800159DFB /* Frameworks */,
+				FB4363451C464E1800159DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4363491C464E1800159DFB /* PBXTargetDependency */,
+			);
+			name = LioTableViewTests;
+			productName = LioTableViewTests;
+			productReference = FB4363471C464E1800159DFB /* LioTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4363511C464E1800159DFB /* LioTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4363611C464E1800159DFB /* Build configuration list for PBXNativeTarget "LioTableViewUITests" */;
+			buildPhases = (
+				FB43634E1C464E1800159DFB /* Sources */,
+				FB43634F1C464E1800159DFB /* Frameworks */,
+				FB4363501C464E1800159DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4363541C464E1800159DFB /* PBXTargetDependency */,
+			);
+			name = LioTableViewUITests;
+			productName = LioTableViewUITests;
+			productReference = FB4363521C464E1800159DFB /* LioTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB43632B1C464E1800159DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Cocoa Lee";
+				TargetAttributes = {
+					FB4363321C464E1800159DFB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FB4363461C464E1800159DFB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FB4363321C464E1800159DFB;
+					};
+					FB4363511C464E1800159DFB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FB4363321C464E1800159DFB;
+					};
+				};
+			};
+			buildConfigurationList = FB43632E1C464E1800159DFB /* Build configuration list for PBXProject "LioTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB43632A1C464E1800159DFB;
+			productRefGroup = FB4363341C464E1800159DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4363321C464E1800159DFB /* LioTableView */,
+				FB4363461C464E1800159DFB /* LioTableViewTests */,
+				FB4363511C464E1800159DFB /* LioTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4363311C464E1800159DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4363411C464E1800159DFB /* LaunchScreen.storyboard in Resources */,
+				FB43633E1C464E1800159DFB /* Assets.xcassets in Resources */,
+				FB43633C1C464E1800159DFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4363451C464E1800159DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4363501C464E1800159DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB43632F1C464E1800159DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4363391C464E1800159DFB /* ViewController.swift in Sources */,
+				FB4363371C464E1800159DFB /* AppDelegate.swift in Sources */,
+				FB4363661C464E2E00159DFB /* LioTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4363431C464E1800159DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB43634C1C464E1800159DFB /* LioTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB43634E1C464E1800159DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4363571C464E1800159DFB /* LioTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4363491C464E1800159DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4363321C464E1800159DFB /* LioTableView */;
+			targetProxy = FB4363481C464E1800159DFB /* PBXContainerItemProxy */;
+		};
+		FB4363541C464E1800159DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4363321C464E1800159DFB /* LioTableView */;
+			targetProxy = FB4363531C464E1800159DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB43633A1C464E1800159DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB43633B1C464E1800159DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB43633F1C464E1800159DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4363401C464E1800159DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4363591C464E1800159DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB43635A1C464E1800159DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB43635C1C464E1800159DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LioTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LioTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB43635D1C464E1800159DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LioTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LioTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB43635F1C464E1800159DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LioTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LioTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LioTableView.app/LioTableView";
+			};
+			name = Debug;
+		};
+		FB4363601C464E1800159DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LioTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LioTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LioTableView.app/LioTableView";
+			};
+			name = Release;
+		};
+		FB4363621C464E1800159DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LioTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LioTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LioTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB4363631C464E1800159DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LioTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LioTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LioTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB43632E1C464E1800159DFB /* Build configuration list for PBXProject "LioTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4363591C464E1800159DFB /* Debug */,
+				FB43635A1C464E1800159DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB43635B1C464E1800159DFB /* Build configuration list for PBXNativeTarget "LioTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB43635C1C464E1800159DFB /* Debug */,
+				FB43635D1C464E1800159DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB43635E1C464E1800159DFB /* Build configuration list for PBXNativeTarget "LioTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB43635F1C464E1800159DFB /* Debug */,
+				FB4363601C464E1800159DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB4363611C464E1800159DFB /* Build configuration list for PBXNativeTarget "LioTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4363621C464E1800159DFB /* Debug */,
+				FB4363631C464E1800159DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB43632B1C464E1800159DFB /* Project object */;
+}
