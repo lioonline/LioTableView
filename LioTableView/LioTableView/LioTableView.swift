@@ -21,16 +21,17 @@ class LioTableView: UIScrollView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
+
     
     func initView(){
-        
+       
     }
     
     
 }
 
 protocol LioTableViewDelegate :NSObjectProtocol,UIScrollViewDelegate {
+
    
 //    func
     
